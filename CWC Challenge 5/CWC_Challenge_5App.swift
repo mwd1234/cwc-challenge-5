@@ -11,7 +11,7 @@ import SwiftUI
 struct CWC_Challenge_5App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CompanyView()
         }
     }
 }

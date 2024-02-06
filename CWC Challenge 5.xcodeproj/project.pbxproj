@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		9F60A6A22B71ADCD00027624 /* CWC_Challenge_5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60A6A12B71ADCD00027624 /* CWC_Challenge_5App.swift */; };
-		9F60A6A42B71ADCD00027624 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60A6A32B71ADCD00027624 /* ContentView.swift */; };
+		9F60A6A42B71ADCD00027624 /* CompanyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60A6A32B71ADCD00027624 /* CompanyView.swift */; };
 		9F60A6A62B71ADCF00027624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F60A6A52B71ADCF00027624 /* Assets.xcassets */; };
 		9F60A6A92B71ADCF00027624 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F60A6A82B71ADCF00027624 /* Preview Assets.xcassets */; };
+		9F60A6B22B71AE5C00027624 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60A6B12B71AE5C00027624 /* DataService.swift */; };
+		9F60A6B42B71AF7800027624 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60A6B32B71AF7800027624 /* Company.swift */; };
+		9F60A6B62B71AFE500027624 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60A6B52B71AFE500027624 /* Department.swift */; };
+		9F60A6B82B71B03C00027624 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60A6B72B71B03C00027624 /* Employee.swift */; };
+		9F60A6BC2B71B0F600027624 /* DemoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F60A6BB2B71B0F600027624 /* DemoData.json */; };
+		9F60A6BE2B71B4EC00027624 /* DepartmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60A6BD2B71B4EC00027624 /* DepartmentView.swift */; };
+		9F60A6C02B71B67900027624 /* EmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60A6BF2B71B67900027624 /* EmployeeView.swift */; };
+		9F60A6C22B71B6D800027624 /* EmployeeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60A6C12B71B6D800027624 /* EmployeeRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F60A69E2B71ADCD00027624 /* CWC Challenge 5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CWC Challenge 5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F60A6A12B71ADCD00027624 /* CWC_Challenge_5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWC_Challenge_5App.swift; sourceTree = "<group>"; };
-		9F60A6A32B71ADCD00027624 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F60A6A32B71ADCD00027624 /* CompanyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyView.swift; sourceTree = "<group>"; };
 		9F60A6A52B71ADCF00027624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F60A6A82B71ADCF00027624 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F60A6B12B71AE5C00027624 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		9F60A6B32B71AF7800027624 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		9F60A6B52B71AFE500027624 /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		9F60A6B72B71B03C00027624 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		9F60A6BB2B71B0F600027624 /* DemoData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DemoData.json; sourceTree = "<group>"; };
+		9F60A6BD2B71B4EC00027624 /* DepartmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentView.swift; sourceTree = "<group>"; };
+		9F60A6BF2B71B67900027624 /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
+		9F60A6C12B71B6D800027624 /* EmployeeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +67,18 @@
 		9F60A6A02B71ADCD00027624 /* CWC Challenge 5 */ = {
 			isa = PBXGroup;
 			children = (
+				9F60A6B12B71AE5C00027624 /* DataService.swift */,
 				9F60A6A12B71ADCD00027624 /* CWC_Challenge_5App.swift */,
-				9F60A6A32B71ADCD00027624 /* ContentView.swift */,
+				9F60A6A32B71ADCD00027624 /* CompanyView.swift */,
+				9F60A6BD2B71B4EC00027624 /* DepartmentView.swift */,
+				9F60A6BF2B71B67900027624 /* EmployeeView.swift */,
+				9F60A6C12B71B6D800027624 /* EmployeeRowView.swift */,
 				9F60A6A52B71ADCF00027624 /* Assets.xcassets */,
 				9F60A6A72B71ADCF00027624 /* Preview Content */,
+				9F60A6B32B71AF7800027624 /* Company.swift */,
+				9F60A6B52B71AFE500027624 /* Department.swift */,
+				9F60A6B72B71B03C00027624 /* Employee.swift */,
+				9F60A6BB2B71B0F600027624 /* DemoData.json */,
 			);
 			path = "CWC Challenge 5";
 			sourceTree = "<group>";
@@ -126,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F60A6A92B71ADCF00027624 /* Preview Assets.xcassets in Resources */,
+				9F60A6BC2B71B0F600027624 /* DemoData.json in Resources */,
 				9F60A6A62B71ADCF00027624 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +162,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F60A6A42B71ADCD00027624 /* ContentView.swift in Sources */,
+				9F60A6C22B71B6D800027624 /* EmployeeRowView.swift in Sources */,
+				9F60A6C02B71B67900027624 /* EmployeeView.swift in Sources */,
+				9F60A6B22B71AE5C00027624 /* DataService.swift in Sources */,
+				9F60A6B82B71B03C00027624 /* Employee.swift in Sources */,
+				9F60A6A42B71ADCD00027624 /* CompanyView.swift in Sources */,
+				9F60A6B62B71AFE500027624 /* Department.swift in Sources */,
+				9F60A6BE2B71B4EC00027624 /* DepartmentView.swift in Sources */,
 				9F60A6A22B71ADCD00027624 /* CWC_Challenge_5App.swift in Sources */,
+				9F60A6B42B71AF7800027624 /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
